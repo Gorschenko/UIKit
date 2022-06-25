@@ -1,0 +1,35 @@
+.color {
+  &_primary {
+    color: $color_primary;
+  }
+
+  &_secondary {
+    color: $color_secondary;
+  }
+
+  &_white {
+    color: $color_white;
+  }
+
+  &_black {
+    color: $color_black;
+  }
+}
+
+.background {
+  &_primary {
+    background: $color_primary;
+  }
+
+  &_secondary {
+    background: $color_secondary;
+  }
+
+  &_white {
+    background: $color_white;
+  }
+
+  &_black {
+    background: $color_black;
+  }
+}
