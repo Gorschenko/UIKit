@@ -7,7 +7,7 @@
       textColor,
       backgroundColor,
     ]"
-    @click="action"
+    @click="$emit('action')"
   >
     <i :class="iconName" />
   </button>
@@ -34,12 +34,6 @@ export default {
     backgroundColor: {
       type: String,
       default: 'background_primary',
-    },
-  },
-  methods: {
-    action () {
-      console.log('action from button')
-      this.$emit('action')
     },
   },
 }

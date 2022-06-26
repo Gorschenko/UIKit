@@ -1,5 +1,6 @@
 // colors
 $color_primary: rgba(43, 132, 208, 1);
-$color_secondary: rgba(43, 132, 208, 1);
+$color_secondary: rgba($color_primary, 0.5);
+$color_tertiary: rgba($color_primary, 0.3);
 $color_white: rgba(255, 255, 255, 1);
 $color_black: rgba(0, 0, 0, 1);
